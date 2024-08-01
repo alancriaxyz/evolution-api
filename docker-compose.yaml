@@ -17,7 +17,7 @@ services:
       - ./Docker/.env
     command: ['node', './dist/src/main.js']
     expose:
-      - 8080
+      - 8686
 
 volumes:
   evolution_instances:
