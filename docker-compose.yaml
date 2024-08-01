@@ -7,7 +7,7 @@ services:
     build: .
     restart: always
     ports:
-      - 8080:8080
+      - 8686:8686
     volumes:
       - evolution_instances:/evolution/instances
       - evolution_store:/evolution/store
